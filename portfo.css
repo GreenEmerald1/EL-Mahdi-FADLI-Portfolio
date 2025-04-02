@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Merienda:wght@300..900&family=Yatra+One&display=swap');
 .socialmedia{
-  display : flex;
-  justify-content: space-around;
   color : #C0C0C0;
   
-  width : 20%
+  width : auto;
+}
+i{
+  margin : 10px;
 }
 a, i{
   font-size: 40px;
-  color : #C0C0C0;
+  color :#C0C0C0; 
 }
 .contenu{
   margin-top: 50px;
@@ -70,17 +71,12 @@ h1, h2{
   color : #4169E1;
 }
 h1{
-  text-align: center;
-  transition: all 0.4s ease-in-out;
-  margin : auto;
+  text-align: center; 
+  width : auto;
+
 }
 img:hover{
   border : 5px solid #4169E1;
-}
-h1:hover{
-border-bottom: 2px solid #4169E1 ;
-width : 60%;
-
   
 }
 h2{
@@ -94,7 +90,7 @@ li{
 }
 .wrappercard{
   
-  width : 70%;
+  width : 85%;
   border : 2px solid black;
   background-color: black;
   color : #C0C0C0;  
